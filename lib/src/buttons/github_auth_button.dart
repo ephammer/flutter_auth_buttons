@@ -51,6 +51,7 @@ class GithubAuthButton extends AuthButton {
       return darkMode ? Color(0xff6d7c8b) : AuthColors.github;
     if (style!.buttonType != AuthButtonType.secondary)
       return const Color(0xff6d7c8b);
+    return null;
   }
 
   @override

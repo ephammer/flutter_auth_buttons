@@ -10,5 +10,6 @@ extension SmartColor on Color {
     double luminance = this.computeLuminance();
     if (luminance == 0.0 && darkMode == false) return Colors.black;
     if (luminance == 1.0 && darkMode == false) return Colors.black;
+    return null;
   }
 }

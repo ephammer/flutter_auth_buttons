@@ -49,6 +49,7 @@ class HuaweiAuthButton extends AuthButton {
   Color? getProgressIndicatorValueColor() {
     if (style!.buttonType == AuthButtonType.secondary) return Colors.red;
     if (style!.buttonType != AuthButtonType.secondary) return Colors.red[200];
+    return null;
   }
 
   @override

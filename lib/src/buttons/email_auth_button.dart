@@ -48,6 +48,7 @@ class EmailAuthButton extends AuthButton {
   Color? getProgressIndicatorValueColor() {
     if (style!.buttonType == AuthButtonType.secondary) return Colors.teal;
     if (style!.buttonType != AuthButtonType.secondary) return Colors.teal[200];
+    return null;
   }
 
   @override
