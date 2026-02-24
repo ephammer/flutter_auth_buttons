@@ -352,7 +352,7 @@ class AuthButtonStyle with Diagnosticable {
 
   @override
   int get hashCode {
-    return hashList([
+    return Object.hashAll([
       buttonColor,
       splashColor,
       elevation,
